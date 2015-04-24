@@ -11,6 +11,8 @@ body{
 	padding: 5%;
 	height: auto;
 	text-align: center;
+	height: 100%; overflow: auto; 
+}
 	
 }
 
@@ -85,11 +87,13 @@ body{
 }
 
 #about{
+    background-image: url('/images/about.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+   }
 
-	background: #3b5998;
-	color: 
-}
-
+	
 .navicon{
 	width: 50px;
 	height: 50px;
@@ -103,4 +107,40 @@ body{
 
 
 
+/*BEGIN CONTACT FORM STYLING*/
 
+form input, textarea, p {
+
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+}
+input[type="radio"] + /*label* span */{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+input[type="radio"] {
+     background-color:$DarkBrown;
+}
+
+input[type="radio"]{
+     background-color:$Orange;
+}
+
+label {
+color: #B4886B;
+font-weight: bold;
+display: block;
+}
+/*END CONTACT FORM STYLING*/
+/*BEGIN ABOUT STYLING */
+
+/* END ABOUT STYLING */

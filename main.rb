@@ -5,6 +5,11 @@ get '/' do
 	erb :index
 end
 
+get '/multimedia' do
+	erb :multimedia
+end
+
+
 get '/contact' do
 	# @title = "Contact"
 	erb :contact

@@ -34,18 +34,14 @@ post '/contact' do
 	}  
 	sending = m.messages.send message  
 	puts sending
-	redirect to('/thanks')
+	redirect to('/')
 end
 
-get '/thanks' do
-	erb :thanks
-end
+# get '/' do
+# 	erb :thanks
+# end
 
 
 get '/media' do
 	erb :media
 end
-=======
-get '/contact' do 
-	erb :contact
-end 

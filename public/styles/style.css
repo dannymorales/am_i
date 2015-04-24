@@ -1,0 +1,211 @@
+body{
+
+	width: 100%;
+	margin: 0px;
+
+}
+.container{
+	clear: both;
+	margin: 0%;
+	padding: 5%;
+	text-align: center;	
+	height: 700px; 
+	overflow: auto; 
+}
+	
+
+#header{
+	
+	background: #8b9dc3;
+	margin: 0;
+	padding: 170px 80px;
+	margin: auto;
+	list-style-type: none;
+}
+
+.toggle-nav{
+
+	color: white;
+	display: none;
+}
+#contact{
+
+	background: #e5f9f8
+}
+
+#dhome{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 10%;
+}
+
+#dmedia{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 20%;
+}
+
+#dabout{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 60%;
+}
+#dcontact{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 70%;
+}
+#logo{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 1000px;
+	margin-left: 47%;
+	display: inline-block;
+	-webkit-animation: spin 2s
+}
+
+@-webkit-keyframes spin {
+    100% {-webkit-transform: rotate(-360deg);}
+}
+
+#iconhome{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: -8%;
+	display: none;
+}
+#iconmedia{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 5%;
+	display: none;	
+}
+#iconabout{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 51%;
+	display: none;	
+}
+#iconcontact{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 65%;
+	display: none;	
+}
+
+#footer{
+	background-color: white;
+
+}
+
+#footer img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 15% 7%;
+	cursor: pointer;
+
+}
+
+
+/*STYLE FOR INDEX*/
+
+
+
+.col1, .col2, .col3{
+
+	padding: 5%;
+	width: 20%;
+	float: left;
+	margin: 7px;
+	border-radius: 5px;
+	height: auto;
+
+}
+#media{
+
+	background: #dfe3ee;
+	position: static;
+	margin: 0;
+	
+}
+#media h2{
+
+	text-align: center;
+}
+
+#confooter{
+	clear: both;
+}
+
+#about{
+    background-image: url('/images/about.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+   }
+
+	
+.navicon{
+	width: 50px;
+	height: 50px;
+	color: white;
+}
+.colimg{
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+
+
+/*BEGIN CONTACT FORM STYLING*/
+
+form input, textarea, p {
+
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+}
+input[type="radio"] + /*label* span */{
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+input[type="radio"] {
+     background-color:$DarkBrown;
+}
+
+input[type="radio"]{
+     background-color:$Orange;
+}
+
+label {
+color: #B4886B;
+font-weight: bold;
+display: block;
+}
+/*END CONTACT FORM STYLING*/
+/*BEGIN ABOUT STYLING */
+
+/* END ABOUT STYLING */

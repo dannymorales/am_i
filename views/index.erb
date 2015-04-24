@@ -1,10 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>AM I</title>
-</head>
-<body>
-	<h1>starting</h1>
-</body>
-</html>
+
+
+<!-- CONTAINERS -->
+
+	<!-- STARTS MEDIA -->
+
+<div id="media" class="container">
+	<h2>THIS IS MEDIA</h2>
+	
+		<div class="col1">	
+			<a href="amiStudio.erb">
+			<img src="/images/amiStudio.jpg" class="colimg"></a> 
+		</div>
+		<div class="col2">
+			<a href="amiFilm.erb">
+			<img src="/images/amiFilms.jpg" class="colimg"></a>
+		</div>
+		<div class="col3">
+			<a href="contact.erb">
+			<img src="/images/contact.jpg" class="colimg"></a> 
+
+		</div>
+	<div id="confooter">This is the media footer</div>
+	
+</div>
+	<!-- ENDS MEDIA -->
+
+	<!-- STARTS ABOUT -->
+
+<div id="about" class="container">
+
+
+
+
+
+</div>
+	<!-- ENDS ABOUT -->
+
+<!-- STARTS ABOUT -->
+
+<div id="contact" class="container">
+	
+	<h1><strong> Contact Us </strong>> </h1>
+
+	<form form action="/contact" method= "POST">
+
+		<p><label>BOOK A STUDIO</label><br>
+		<input type="text" name="fname" placeholder="First name"><br>
+		<input type="text" name="lname" placeholder="Last name"><br>
+		<input type="text" name="pnum" placeholder="Phone number"><br>
+		<input type="text" name="email" placeholder="Email" ></p>
+		<textarea <input type="text" name=" Session Details" placeholder="send us a message"></textarea>
+		<label for="message"> Send us a Message</label><br>
+	
+	</form>
+	<form action="/contact" method= "POST">
+		<p><label>Best time to reach you.</label><br>
+		<input type="radio" name="Time" value="Morning">Morning<br>
+		<input type="radio" name="Time" value="Afternoon">Afternoon<br>
+		<input type="radio" name="Time" value="Evening">Evening</p>
+	</form>
+
+	
+		<p><label>Get in Touch</label><br>
+		<span class="email">kavian2@gmail.com</span><br>
+		T 250 852 9632 <br>
+		F 212 730 1038 
+</p>
+
+
+
+
+</div>
+	<!-- ENDS ABOUT -->

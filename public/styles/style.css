@@ -4,35 +4,20 @@ body{
 	margin: 0px;
 
 }
-
 .container{
 	clear: both;
 	margin: 0%;
 	padding: 5%;
-	height: auto;
-	text-align: center;
-	
+	height: 600px;
+	text-align: center;	
 }
-
 #header{
-
+	
 	background: #8b9dc3;
 	margin: 0;
-	padding: 170px 10px;
-
-}
-
-#header ul li{
-
-	position: relative;
-	background-position: center center;
-	top: -100px;
-	display: inline-block;
+	padding: 170px 80px;
+	margin: auto;
 	list-style-type: none;
-	padding: 3%;
-	margin: 0 20px;
-
-
 }
 
 .toggle-nav{
@@ -40,20 +25,102 @@ body{
 	color: white;
 	display: none;
 }
+#contact{
 
-#nav a{
-
-	color: white;
-	text-decoration: none;
-	font-family: courier;
-	font-size: 20px;
+	background: #e5f9f8
 }
 
-#logo{
+#dhome{
+
 	position: relative;
-	top: 110px;
+	float: left;
+	top: -500px;
+	left: 10%;
 }
 
+#dmedia{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 20%;
+}
+
+#dabout{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 60%;
+}
+#dcontact{
+
+	position: relative;
+	float: left;
+	top: -500px;
+	left: 70%;
+}
+#logo{
+	position: absolute;
+	left: 1000px;
+	margin-left: 47%;
+	display: inline-block;
+	-webkit-animation: spin 2s
+}
+
+@-webkit-keyframes spin {
+    100% {-webkit-transform: rotate(-360deg);}
+}
+
+#iconhome{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: -8%;
+	display: none;
+}
+#iconmedia{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 5%;
+	display: none;	
+}
+#iconabout{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 51%;
+	display: none;	
+}
+#iconcontact{
+	position: relative;
+	float: left;
+	top: 150px;
+	left: 65%;
+	display: none;	
+}
+
+#footer{
+	background-color: white;
+
+}
+
+#footer img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 15% 7%;
+	cursor: pointer;
+	transition: .5s;
+
+}
+
+#footer img:hover{
+	width: 110px;
+	height: 110px;
+
+}
 /*STYLE FOR INDEX*/
 
 

@@ -5,7 +5,6 @@ get '/' do
 	erb :index
 end
 
-
 get '/contact' do
 	# @title = "Contact"
 	erb :contact
@@ -45,7 +44,3 @@ end
 get '/media' do
 	erb :media
 end
-=======
-get '/contact' do 
-	erb :contact
-end 

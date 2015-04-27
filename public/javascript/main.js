@@ -32,6 +32,7 @@ $(function  () {
 	});
 
 	$("#dateavailable").datepicker();
+	
 	$("#dhome").delay(700).animate({
         			
        			 	top: '100px',

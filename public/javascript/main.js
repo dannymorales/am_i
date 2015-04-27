@@ -6,7 +6,7 @@ $(function  () {
 	}, 1000);
 
 	$(window).scroll(function  () {
-		if($(this).scrollTop() > 1000){
+		if($(this).scrollTop() > 400){
 			$("#popupmenu").fadeIn(500);
 		}
 		else{

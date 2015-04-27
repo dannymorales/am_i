@@ -4,6 +4,25 @@ body{
 	margin: 0px;
 
 }
+
+#popupmenu{
+	position: fixed;
+	top: 0px;
+	width: 100%;	
+	height: 70px;
+	background-color: #8b9dc3;
+	opacity: .7;
+	z-index: 9999;
+	display: none;
+
+}
+#popupmenu li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 20px;
+	margin: 0 4%;
+}
+
 .container{
 	clear: both;
 	margin: 0%;
@@ -114,12 +133,36 @@ body{
 #footer img{
 	width: 100px;
 	height: 100px;
-	float: left;
-	margin: 15% 7%;
 	cursor: pointer;
-
+	
 }
 
+#facebook{
+	display: none;
+	position: absolute;
+	top: 3800px;
+	left: 200px;
+}
+
+#twitter{
+	display: none;
+	position: absolute;
+	top: 3800px;
+	left: 400px;
+}
+
+#pinterest{
+	display: none;
+	position: absolute;
+	top: 3800px;
+	left: 600px;
+}
+#youtube{
+	display: none;
+	position: absolute;
+	top: 3800px;
+	left: 800px;
+}
 
 /*STYLE FOR INDEX*/
 
@@ -152,7 +195,7 @@ body{
 }
 
 #about{
-    background-image: url('/images/about.jpg');
+    background-image: url('/images/paper.jpg');
     background-size: 100% ;
     background-repeat: no-repeat;
     padding-top: 40px;
@@ -171,17 +214,16 @@ body{
 }
 
 
-
 /*BEGIN CONTACT FORM STYLING*/
 
-form input, textarea, p {
+#contact form input, textarea, p {
 
 	margin: 10px;
 	padding: 10px;
 	border: 1px solid;
 	border-radius: 10px;
 }
-input[type="radio"] + /*label* span */{
+#contact input[type="radio"] + /*label* span */{
     display:inline-block;
     width:19px;
     height:19px;
@@ -192,20 +234,49 @@ input[type="radio"] + /*label* span */{
     border-radius:  50%;
 }
 
-input[type="radio"] {
+#contact input[type="radio"] {
      background-color:$DarkBrown;
 }
 
-input[type="radio"]{
+#contact input[type="radio"]{
      background-color:$Orange;
 }
 
-label {
+#contact label {
 color: #B4886B;
 font-weight: bold;
 display: block;
 }
 /*END CONTACT FORM STYLING*/
 /*BEGIN ABOUT STYLING */
+
+
+#about input{
+	display: block;
+	position: relative;
+	font-family: courier;
+	font-size: 20px;
+	top: 100px;
+	height: 40px;
+	width: 500px;
+	margin: 0px;
+	padding: 2px;
+	border: none;
+	background-color: transparent;
+}
+
+#about select{
+	display: block;
+	position: relative;
+	font-family: courier;
+	font-size: 20px;
+	top: 100px;
+	height: 40px;
+	width: 500px;
+	margin: 0px;
+	padding: 2px;
+	border: none;
+	background-color: transparent;
+}
 
 /* END ABOUT STYLING */

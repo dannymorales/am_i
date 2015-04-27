@@ -5,8 +5,33 @@ $(function  () {
 		left: '-100px',
 	}, 1000);
 
-	
+	$(window).scroll(function  () {
+		if($(this).scrollTop() > 1000){
+			$("#popupmenu").fadeIn(500);
+		}
+		else{
+			$("#popupmenu").fadeOut(500);
+		}
+	});
 
+
+	$(window).scroll(function  () {
+		if($(this).scrollTop() > 3000){
+			$("#facebook").stop().delay(300).fadeIn(500);
+			$("#twitter").stop().delay(600).fadeIn(500);
+			$("#pinterest").stop().delay(900).fadeIn(500);
+			$("#youtube").stop().delay(1100).fadeIn(500);
+		}
+
+		else{
+			$("#facebook").stop().fadeOut();
+			$("#twitter").stop().fadeOut();
+			$("#pinterest").stop().fadeOut();
+			$("#youtube").stop().fadeOut();
+		}
+	});
+
+	$("#dateavailable").datepicker();
 	$("#dhome").delay(700).animate({
         			
        			 	top: '100px',
@@ -58,7 +83,7 @@ $(function  () {
 		$("#iconcontact").fadeOut();
 	});
 
-	$("#gomedia").click(function(){
+	$("#gomedia, #agomedia").click(function(){2
 
 		$("body").animate({
 
@@ -66,7 +91,7 @@ $(function  () {
 		}, 750)
 	});
 
-	$("#goabout").click(function(){
+	$("#goabout, #agoabout").click(function(){
 
 		$("body").animate({
 
@@ -74,12 +99,21 @@ $(function  () {
 		}, 750)
 	});
 
-	$("#gocontact").click(function(){
+	$("#gocontact, #agocontact").click(function(){
 
 		$("body").animate({
 
 			scrollTop: $("#contact").offset().top
 		}, 750)
 	});
+	$("#agosocialmedia").click(function(){
+
+		$("body").animate({
+
+			scrollTop: $("#footer").offset().top
+		}, 750)
+	});
+	
+	
 
 });

@@ -36,6 +36,11 @@ post '/contact' do
 	redirect to('/')
 end
 
+get '/about' do
+	erb :about
+end
+
+
 # get '/' do
 # 	erb :thanks
 # end

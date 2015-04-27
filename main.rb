@@ -2,9 +2,23 @@ require "sinatra"
 require "mandrill"
 
 get '/' do
-	erb :index
+	erb :home
 end
 
+
+get '/about' do
+	erb :about
+end
+
+
+get '/amiStudio' do
+	erb :amiStudio
+end
+
+
+get '/amifilm' do
+	erb :amiFilm
+end
 
 get '/contact' do
 	# @title = "Contact"
@@ -45,3 +59,4 @@ end
 get '/media' do
 	erb :media
 end
+

@@ -13,27 +13,34 @@
 	
 <!-- STARTS HEADER -->
 
-<a class="toggle-nav" href="#">&#9776;</a>
-
 	<div id="header" class="container">
-
-		<div id="nav">
+		
+		<a id="tnav" class="toggle-nav" href="#">&#9776;</a>
 			
-			<ul>
-				<li><a href="/index"><img class="navicon" src="/images/home.png" alt="home"></a></li>
-				<li><a href="/multimedia"> <img class="navicon" src="/images/multimedia.png" alt="multimedia"> </a></li>
-				<li> <img src="/images/logo.png" alt="company" id=logo> </li>
-				<li><a href="#"> <img class="navicon" src="/images/about.png" alt="about"></a></li>
-				<li><a href="#"><img class="navicon" src="/images/contact.png" alt=""></a></li>
-			</ul>
-		</div>
+			<div id="dhome"><a href="#" id="gohome"><img class="navicon" src="/images/home.png" alt="home"></a></div>
+			<div id="dmedia"><a href="#" id="gomedia"><img class="navicon" src="/images/multimedia.png" alt="media"></a></div>
+			<img src="/images/ami_logo.png" alt="company" id="logo">
+			<div id="dabout"><a href="#" id="goabout"><img class="navicon" src="/images/about.png" alt="about"></a></div>
+			<div id="dcontact"><a href="#" id="gocontact"><img class="navicon" src="/images/contact.png" alt="contact"></a></div>
+			<h3 id="iconhome">Home</h3>
+			<h3 id="iconmedia">Multimedia</h3>
+			<h3 id="iconabout">About</h3>
+			<h3 id="iconcontact">Contact</h3>
+			
 	</div>
 
 <!-- ENDS HEADER -->
 
 <%= yield %>
 
-<div id="footer" class="footer"></div>
+<div id="footer" class="container">
+	
+	<img src="/images/facebook.png" id="facebook" alt="facebook" class="footimg">
+	<img src="/images/twitter.png" id="twitter" alt="twitter" class="footimg">
+	<img src="/images/pinterest.png" id="pinterest" alt="pinterest" class="footimg">
+	<img src="/images/youtube.png" id="youtube" alt="youtube" class="footimg">
+
+</div>
 
 </body>
 </html>

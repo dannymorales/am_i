@@ -2,7 +2,7 @@ require "sinatra"
 require "mandrill"
 
 get '/' do
-	erb :home
+	erb :index
 end
 
 
